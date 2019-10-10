@@ -47,3 +47,13 @@ Now we focus on the energy of the system. Energy of the system can be increased 
 `dE = dQ - dW` first law of thermodynamics
 
 While the (internal) energy `E` is a state function, the quantities `Q` and `W` are not. This means that the path taken to change the state of a system will change the quantities Q and W but their difference will be the same. These are also referred to as non-exact differentials.  
+
+---
+
+A **Process** refers to any change in the system. For example, this can be the change of a system left on its own, reaching the equilibrium or an agent changing the state of the system in some way. 
+
+- quasi-static : the system is always close to equillibrium. Eg. a very slow moving piston.
+- reversible : Heat energy is the only factor for the change in entropy of the system. `dQ = T dS`
+- Spontaneous : For these processes, `dQ < T dS`
+- Adiabatic : `dQ = 0`. No heat flowing into or out of the system.
+

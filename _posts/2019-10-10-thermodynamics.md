@@ -59,6 +59,9 @@ A **Process** refers to any change in the system. For example, this can be the c
 - Spontaneous : For these processes, `dQ < T dS`
 - Adiabatic : `dQ = 0`. No heat flowing into or out of the system.
 
-Let us look at 
+Let us look at quasi-static process in further details. First consider the case where `dW=0`. Keeping N and V fixed,
 
-\\( \frac{1}{2} \\)
+`dS = S(E + dE) - S(E) = dE ds/dE = dE/T`
+
+Since, `dW=0, dE = dQ`. Which implies `dQ = T dS` i.e. a quasi-static process is reversible. 
+

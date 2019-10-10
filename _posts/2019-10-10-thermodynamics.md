@@ -16,7 +16,7 @@ The other two properties of entropy are that it is a monotonically increasing fu
 Let us now look at the derivatives of entropy with respect to the three dependent variables. Let us take a thermally insulated box that has a partition in the middle which allows only the exchange of energy (heat) between the two compartments. At equillibrium : 
 
 (The following are partial derivatives keeping N and V constant)
-`E = E1 + E2 = constant
+`E = E1 + E2 = constant`
 
 => d/dE1 = - d/dE2`
 

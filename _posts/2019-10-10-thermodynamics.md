@@ -46,7 +46,7 @@ What we had seen earlier was that the quantities 'E, V, N' were **extensive vari
 
 Now we focus on the energy of the system. Energy of the system can be increased by heating the system or by doing work on the system. 
 
-`dE = dQ - dW` first law of thermodynamics
+`dE = dQ - dW` ** first law of thermodynamics **
 
 While the (internal) energy `E` is a state function, the quantities `Q` and `W` are not. This means that the path taken to change the state of a system will change the quantities Q and W but their difference will be the same. These are also referred to as non-exact differentials.  
 
@@ -64,4 +64,6 @@ Let us look at quasi-static process in further details. First consider the case 
 `dS = S(E + dE) - S(E) = dE ds/dE = dE/T`
 
 Since, `dW=0, dE = dQ`. Which implies `dQ = T dS` i.e. a quasi-static process is reversible. 
+
+However, in general, `T dS >= dQ` which is ** second law of thermodynamics ** 
 

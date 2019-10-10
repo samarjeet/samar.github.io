@@ -77,15 +77,21 @@ Next let us consider the case of reversible process in which the total energy do
 
 In general, `dE = TdS - PdV + mu dN` **Ist law**
 
-A couple of examples : 
+A few examples : 
 
 Consider a closed box with a movable piston in a quasi-static process. As the gas molecules hit the movabale piston, they will push the piston and in-turn return to the box with a slower velocity. This means that the temperature of the system will decrease due to the work done by the piston. As the system is insulated, `dQ =0`.
 
 In the second case, we quickly remove the piston. In this case no work is done by the system as the piston was simply removed. As the system is insulated, dQ=0. However, the entropy change `del S >= 0`. So, in this case, `del S >= del Q /T`.
 
----
 
-Next, let us consider a 
+Next, let us consider two systems that are connected thermally i.e. there is a transfer of heat `del Q` or energy `del E` (since `del W =0`). between the two systems. We are interested in looking at the change in entropy of the system.  The system with the larger slope on S vs E graph, has the lower temperature and vice versa. Heat flows from hot to cold. 
+
+---
+### From entropy to energy :
+
+
+`E(S,X)` has a minimum as a function of X which is reached at equilibrium. Also E is convex. 
+
 
 
 

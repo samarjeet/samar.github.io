@@ -1,4 +1,3 @@
-# Thermodynamics
 
 One of the main aims of statistical mechanics is to explain the macroscopic behavior, which is described by the laws of 
 thermodynamics, in terms of the interactions among the particles at the microscopic level. 
@@ -30,4 +29,18 @@ The qunatity `dS/dE` at constant N and V is defined as `1/T`. This means that `T
 Let us now look at the other partial derivatives.  Suppose we have a thermally conducting wall which can also move which means that not only the energy can vary but the volumes can change as well. 
 
 Using similar argumnets as earlier, `dS1/dV1 = dS2/dV2`. The quantity `dS/dV` is defined as `P/T`. Since in equillibrium, we already know that `T1 = T2`, we can also see that `P1 = P2` for the box with a moving wall.
+
+Lastly, lets look at the system where the partition wall is fixed but can allow energy and particles to exchnage between the two compartments. Similar to the previous case, we have a new quantity called chemical potential `mu` such `dS/dN = mu/T`. In the case of equillibrium, since the temperatures are same in the two compartments, the chemical potentials are the same as well `mu1 = mu2`
+
+` T  =   dS/dE`
+` P  = T dS/dV`
+` mu = T dS/dN`
+
+
+
+What we had seen earlier was that the quantities 'E, V, N' were **extensive variables**. The corresponding "derivative-related" qunatities that we saw `T, P and mu`, do not scale with the system size. These qunatities are called **intensive variables**. If we double the size of the box, the temperature of the box will not double.
+
+---
+
+Now we focus on the energy of the system. Energy of the system can be increased by heating `dQ` the system. 
 

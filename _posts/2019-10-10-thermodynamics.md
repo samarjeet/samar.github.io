@@ -14,4 +14,20 @@ The other two properties of entropy are that it is a monotonically increasing fu
 
 ---
 
-Let us now look at the derivatives of entropy with respect to the three dependent variables. Let us take a thermally insulated box that has a partition in the middle that allows only the exchange of energy (heat) between the two compartments. 
+Let us now look at the derivatives of entropy with respect to the three dependent variables. Let us take a thermally insulated box that has a partition in the middle which allows only the exchange of energy (heat) between the two compartments. At equillibrium : 
+
+(The following are partial derivatives keeping N and V constant)
+`E = E1 + E2 = constant
+
+=> d/dE1 = - d/dE2`
+
+`dS/dE1 = 0 = d(S1+S2)/dE1 = dS1/dE1 + dS2/dE1 = dS1/dE1 - dS2/dE2`
+
+`=> dS1/dE1 = dS2/dE2`
+
+The qunatity `dS/dE` at constant N and V is defined as `1/T`. This means that `T1 = T2`. This is what we would expect from a system in equillibrium, i.e. temperatures of the two compartments are the same.
+
+Let us now look at the other partial derivatives.  Suppose we have a thermally conducting wall which can also move which means that not only the energy can vary but the volumes can change as well. 
+
+Using similar argumnets as earlier, `dS1/dV1 = dS2/dV2`. The quantity `dS/dV` is defined as `P/T`. Since in equillibrium, we already know that `T1 = T2`, we can also see that `P1 = P2` for the box with a moving wall.
+

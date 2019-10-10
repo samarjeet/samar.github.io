@@ -52,10 +52,13 @@ While the (internal) energy `E` is a state function, the quantities `Q` and `W` 
 
 ---
 
-A **Process** refers to any change in the system. For example, this can be the change of a system left on its own, reaching the equilibrium or an agent changing the state of the system in some way. 
+A **Process** refers to any change in the system. For example, this can be the change of a system, left on its own, reaching the equilibrium or an agent changing the state of the system in some way. 
 
 - quasi-static : the system is always close to equillibrium. Eg. a very slow moving piston.
 - reversible : Heat energy is the only factor for the change in entropy of the system. `dQ = T dS`
 - Spontaneous : For these processes, `dQ < T dS`
 - Adiabatic : `dQ = 0`. No heat flowing into or out of the system.
 
+Let us look at 
+
+\\( \frac{1}{2} \\)

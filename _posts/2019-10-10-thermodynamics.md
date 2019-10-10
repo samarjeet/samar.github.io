@@ -33,7 +33,9 @@ Using similar argumnets as earlier, `dS1/dV1 = dS2/dV2`. The quantity `dS/dV` is
 Lastly, lets look at the system where the partition wall is fixed but can allow energy and particles to exchnage between the two compartments. Similar to the previous case, we have a new quantity called chemical potential `mu` such `dS/dN = mu/T`. In the case of equillibrium, since the temperatures are same in the two compartments, the chemical potentials are the same as well `mu1 = mu2`
 
 `T  =   dS/dE`
+
 `P  = T dS/dV`
+
 `mu = T dS/dN`
 
 

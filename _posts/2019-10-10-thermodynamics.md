@@ -42,5 +42,8 @@ What we had seen earlier was that the quantities 'E, V, N' were **extensive vari
 
 ---
 
-Now we focus on the energy of the system. Energy of the system can be increased by heating `dQ` the system. 
+Now we focus on the energy of the system. Energy of the system can be increased by heating the system or by doing work on the system. 
 
+`dE = dQ - dW` first law of thermodynamics
+
+While the (internal) energy `E` is a state function, the quantities `Q` and `W` are not. This means that the path taken to change the state of a system will change the quantities Q and W but their difference will be the same. These are also referred to as non-exact differentials.  

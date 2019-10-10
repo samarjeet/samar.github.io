@@ -18,7 +18,7 @@ Let us now look at the derivatives of entropy with respect to the three dependen
 (The following are partial derivatives keeping N and V constant)
 `E = E1 + E2 = constant`
 
-=> d/dE1 = - d/dE2`
+`=> d/dE1 = - d/dE2`
 
 `dS/dE1 = 0 = d(S1+S2)/dE1 = dS1/dE1 + dS2/dE1 = dS1/dE1 - dS2/dE2`
 

@@ -46,7 +46,7 @@ What we had seen earlier was that the quantities 'E, V, N' were **extensive vari
 
 Now we focus on the energy of the system. Energy of the system can be increased by heating the system or by doing work on the system. 
 
-`dE = dQ - dW` ** first law of thermodynamics **
+`dE = dQ - dW` **first law of thermodynamics**
 
 While the (internal) energy `E` is a state function, the quantities `Q` and `W` are not. This means that the path taken to change the state of a system will change the quantities Q and W but their difference will be the same. These are also referred to as non-exact differentials.  
 
@@ -59,11 +59,34 @@ A **Process** refers to any change in the system. For example, this can be the c
 - Spontaneous : For these processes, `dQ < T dS`
 - Adiabatic : `dQ = 0`. No heat flowing into or out of the system.
 
-Let us look at quasi-static process in further details. First consider the case where `dW=0`. Keeping N and V fixed,
+Let us look at quasi-static process in further details. First consider the case `dW=0`. Keeping N and V fixed,
 
 `dS = S(E + dE) - S(E) = dE ds/dE = dE/T`
 
 Since, `dW=0, dE = dQ`. Which implies `dQ = T dS` i.e. a quasi-static process is reversible. 
 
-However, in general, `T dS >= dQ` which is ** second law of thermodynamics ** 
+However, in general, `T dS >= dQ` which is **second law of thermodynamics** 
+
+Next let us consider the case of reversible process in which the total energy doesn't change i.e. `dE = 0`. 
+
+`dE = dQ - dW = 0` 
+
+`=> TdS - PdV = 0` (as the process is reversible, `dQ = T dS`)
+
+`dS/dV = P/T` (at constant E and N)
+
+In general, `dE = TdS - PdV + mu dN` **Ist law**
+
+A couple of examples : 
+
+Consider a closed box with a movable piston in a quasi-static process. As the gas molecules hit the movabale piston, they will push the piston and in-turn return to the box with a slower velocity. This means that the temperature of the system will decrease due to the work done by the piston. As the system is insulated, `dQ =0`.
+
+In the second case, we quickly remove the piston. In this case no work is done by the system as the piston was simply removed. As the system is insulated, dQ=0. However, the entropy change `del S >= 0`. So, in this case, `del S >= del Q /T`.
+
+---
+
+Next, let us consider a 
+
+
+
 

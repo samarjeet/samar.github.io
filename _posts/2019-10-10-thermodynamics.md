@@ -90,7 +90,7 @@ Next, let us consider two systems that are connected thermally i.e. there is a t
 ### From entropy to energy :
 
 
-`E(S,X)` has a minimum as a function of X which is reached at equilibrium. Also E is convex. 
+`E(S,X)` has a minimum as a function of X which is reached at equilibrium. Also E is convex. **Legendre transformation** helps
 
 
 
